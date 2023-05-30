@@ -83,7 +83,16 @@ display: grid;
 grid-template-columns: 1fr 3fr;
 grid-template-rows: 2fr 1.2fr;
 row-gap: 0px;
-        }
+}
+/* To make section mobile responsive */
+@media only screen and (max-width:686px) {
+  .threat-template{
+     grid-template-columns: 1fr;
+     grid-template-rows: 1fr;
+   }
+ }
+ 
+
       
 .description{
 padding: 0px 12px;
@@ -119,54 +128,45 @@ object-position: center;
 }
 
 #threat-3-d{
-          font-size: 21px;
+font-size: 21px;
+}
+        
+.HIKKA-SEC-5-1{
+  display: grid;
+  grid-template-columns:1fr 1fr 1f;
+  column-gap: 20px;
+  padding: 20px 80px 50px 80px;
+ }
 
-        }
-
-        .HIKKA-SEC-5-1{
-          display: grid;
-          grid-template-columns: 1fr 1fr 1fr;
-          column-gap: 50px;
-          padding: 20px 80px 50px 80px;
-          }
-          @media only screen and (max-width:686px) {
-            .HIKKA-SEC-5-1{
-              grid-template-columns: 1fr;
-            }
-          }
+ @media only screen and (max-width:686px) {
+  .HIKKA-SEC-5-1{
+  grid-template-columns: 1fr;
+ }
+ }
         
-          
-          .hikka-other iframe {
-        
-              width: 100%;
-              border-radius: 3px;
-              align-self: center;
-            
-              object-fit: contain;
-              object-position: center;
-          }
-          
-          .HIKKA-SEC-5 h1{
-            font-size: 38px;
-            text-decoration: underline;
-            text-decoration-thickness: 3px;
-            text-decoration-color: rgb(1, 9, 103);
-            text-align: left;
-            padding:0px 80px;
-          
-          
-          }
-        
-          .HIKKA-SEC-5 p{
-           font-size:22px;
-           text-align: center;
-           text-decoration:underline;
-           text-decoration-color: rgb(2, 1, 91);
-          
-          
-          }
-        .HIKKA-SEC-5{
-          background-image: url("images/hikkaduwa/check.png");
-          background-attachment: fixed;
-        }
+.hikka-other iframe {
+width: 100%;
+border-radius: 3px;
+align-self: center;
+object-fit: contain;
+object-position: center;
+}
+.HIKKA-SEC-5 h1{
+font-size: 38px;
+text-decoration: underline;
+text-decoration-thickness: 3px;
+text-decoration-color: rgb(1, 9, 103);
+text-align: left;
+padding:0px 80px;
+}
+.HIKKA-SEC-5 p{
+font-size:22px;
+text-align: center;
+text-decoration:underline;
+text-decoration-color: rgb(2, 1, 91);
+}
+.HIKKA-SEC-5{
+background-image: url("images/hikkaduwa/check.png");
+background-attachment: fixed;
+}
         

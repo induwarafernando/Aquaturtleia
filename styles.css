@@ -324,10 +324,17 @@ nav {
 .para1{
   display: grid;
   grid-template-columns: 1fr 3fr;
-  column-gap: 10px;
-  
-  
+  column-gap: 10px; 
 }
+/* To make section mobile responsive!!!! */
+@media only screen and (max-width:686px) {
+  .para1{
+     grid-template-columns: 1fr;
+   }
+ }
+ 
+
+
 .para1img{
   
   background-size: cover;
@@ -358,7 +365,6 @@ nav {
   padding: 30px 100px;
   background-image: url("images/hikkaduwa/check.png");
 background-attachment: fixed;
-
 }
 .home-section-3 h1{
   text-align: left;
@@ -367,9 +373,6 @@ background-attachment: fixed;
   padding-bottom: 20px;
   letter-spacing: 0.8;
 }
-
-
-
 .home-sec-5{
   height: 100%;
 }
@@ -385,7 +388,13 @@ background-attachment: fixed;
   max-width: 100%;
   padding:25px 25px; 
 }
-
+/* To make section mobile responsive */
+@media only screen and (max-width:686px) {
+  .home-section-3 .slides-container{
+     grid-template-columns: 1fr;
+   }
+ }
+ 
 
 .slide img{
   background-size: cover;
@@ -399,7 +408,7 @@ background-attachment: fixed;
   aspect-ratio: 4/5;
   object-fit: cover;
   object-position: center;
-  transition: 0.0s;
+  transition: 0.3s;
     }
 
   .slide img:hover{
@@ -436,7 +445,13 @@ background-attachment: fixed;
       max-width: 100%;
       padding:50px 50px; 
     }
-    
+    /* To make section mobile responsive */
+@media only screen and (max-width:686px) {
+  .home-section-4 .slides-container2{
+     grid-template-columns: 1fr;
+   }
+ }
+ 
     
     .slide2 img{
       background-size: cover;

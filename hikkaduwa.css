@@ -135,31 +135,28 @@ padding: 20px 80px 20px 80px;
 
   }
 }
-
-
 .HIKKA-SEC-4-1 img{
-    border-radius: 3px;
-    align-self: center;
-    width: 100%;
-    object-fit: contain;
-
-    object-position: center;
+ border-radius: 3px;
+ align-self: center;
+ width: 100%;
+ object-fit: contain;
+ object-position: center;
+ transition: 0.6s;
 }
-
-  
+.HIKKA-SEC-4-1 img:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+  filter: brightness(40%);
+}
 
 .HIKKA-SEC-4 h1{
-  font-size: 38px;
-  text-decoration: underline;
-  text-decoration-thickness: 3px;
-  text-decoration-color: rgb(0, 134, 196);
-  text-align: left;
-  padding: 0px 80px;
-
-
+font-size: 38px;
+text-decoration: underline;
+text-decoration-thickness: 3px;
+text-decoration-color: rgb(0, 134, 196);
+text-align: left;
+padding: 0px 80px;
 }
-
-
 
 .HIKKA-SEC-5-1{
   display: grid;
