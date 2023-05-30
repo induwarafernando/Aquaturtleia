@@ -1,0 +1,209 @@
+
+
+      .banner img{
+
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        z-index:-5;
+      filter: brightness(98%);
+       
+      }
+
+
+/* trying out */
+.home-section-31{
+  height: 80%;
+  color: #000304;
+  padding: 30px 80px;
+  background-image: url("images/hikkaduwa/nontransparent.jpg");
+  background-attachment: fixed;
+}
+.home-section-31 h1{
+
+  font-family: 'Abril Fatface', cursive;
+  font-size: 35px;
+  background: linear-gradient(45deg, #00396e, #4196f7);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 38px;
+  padding-bottom: 20px;
+  letter-spacing: 0.8;
+}
+
+
+.slides-container {
+  border-radius: 4px;
+  /* background-image: linear-gradient(rgba(135, 217, 241, 0.986), rgb(25, 240, 255)); */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  row-gap: 20px;
+  grid-auto-rows: max-content;
+  column-gap: 20px;
+  row-gap: 20px;
+  max-width: 100%;
+  padding:25px 25px; 
+}
+
+
+.slide img{
+  background-size: cover;
+  border-radius: 4px;
+  align-items: center;
+  text-align: center;
+  object-fit: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  aspect-ratio: 4/5;
+  object-fit: cover;
+  object-position: center;
+  transition: 0.0s;
+    }
+
+  .slide img:hover{
+    cursor: pointer;
+    transform: scale(1.09);
+  }
+
+
+
+.catergories-sec-2 {
+   height: 100%;
+  
+
+}
+
+.HIKKA-SEC-2{
+  background-image: url("images/hikkaduwa/nontransparent.jpg");
+  background-attachment: fixed;
+    /* background-attachment: fixed;
+    background-image: linear-gradient( rgba(126, 234, 253, 0.795),rgb(189, 252, 252),white);
+   */
+}
+.HIKKA-SEC-2 h1{
+  font-family: 'Abril Fatface', cursive;  
+  font-size: 38px;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: rgb(0, 134, 196);
+  text-align: left;
+  padding:50px 80px;
+
+
+}
+
+.HIKKA-SEC-2-1{
+  padding: 10px 80px 20px 80px;
+  display: grid;
+  grid-template-columns: 3fr 0.9fr;
+  column-gap: 15px;
+}
+
+.hikka-start p{
+  justify-content: center;
+  color: rgb(0, 0, 3);
+  font-size: 26px;
+  line-height: 35px;
+  text-align: justify;
+}
+
+
+.hikka-start img {
+    border-radius: 4px;
+    align-self: center;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+
+
+
+
+.HIKKA-SEC-3{
+
+  background-image: url("images/hikkaduwa/nontransparent.jpg");
+  background-attachment: fixed;
+    /* background-attachment: fixed;
+    background-image: linear-gradient( rgb(91, 197, 246),rgb(255, 255, 255) );
+    */
+  }
+  .HIKKA-SEC-3 h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 48px;
+    text-decoration: underline;
+    text-decoration-thickness: 4px;  
+    text-decoration-color: rgb(0, 13, 126);
+    text-align: left;
+    padding:50px 80px;
+
+  }
+  
+  .HIKKA-SEC-3-1{
+    padding: 20px 80px;
+    background-attachment: fixed;
+    display: grid;
+    grid-template-columns: 1fr 3.5fr;
+    column-gap: 28px;
+  }
+
+.hikka-visit p{
+  color: rgb(0, 0, 3);
+  font-size: 24px;
+  line-height: 25px;
+  text-align: justify;
+
+}
+.hikka-visit iframe {
+
+  height: 100%;
+    border-radius: 3px;
+    align-self: center;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+
+/*CSS for table*/
+.turtle-table{	
+  background-image: url("images/hikkaduwa/nontransparent.jpg");
+  background-attachment: fixed;
+  padding: 50px 80px;
+}
+.summary-heading{
+font-size: 35px;
+background: linear-gradient(45deg, #333, #4196f7);
+color: azure;
+
+}
+table {
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td, table th {
+  border: 1px solid #d3f0fc;
+  padding: 8px;
+}
+
+table th {
+  background-color: #ace7f1;
+  text-align: left;
+}
+
+table tr:nth-child(even) {
+  background-color: #e9e8e8;
+}
+
+table tr:hover {
+  background-color: #c5d3ff;
+}
+
+
+
