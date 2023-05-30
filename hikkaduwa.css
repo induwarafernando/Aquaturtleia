@@ -67,14 +67,18 @@
     object-position: center;
 }
 
+@media only screen and (max-width:686px) {
+  .HIKKA-SEC-2-1{
+    grid-template-columns: 1fr;
+  }
+}
+
 
 .HIKKA-SEC-3{
   
   background-image: url("images/hikkaduwa/check.png");
   background-attachment: fixed;
-    /* background-attachment: fixed;
-    background-image: linear-gradient( rgb(91, 197, 246),rgb(255, 255, 255) );
-    */
+   
   }
   .HIKKA-SEC-3 h1{
     font-size: 38px;
@@ -92,6 +96,11 @@
     display: grid;
     grid-template-columns: 1.2fr 1.5fr;
     column-gap: 28px;
+  }
+  @media only screen and (max-width:686px) {
+    .HIKKA-SEC-3-1{
+      grid-template-columns: 1fr;
+    }
   }
 
 .hikka-visit p{
@@ -122,6 +131,14 @@ row-gap: 15px;
 column-gap: 15px;
 padding: 20px 80px 20px 80px;
 }
+@media only screen and (max-width:686px) {
+  .HIKKA-SEC-4-1{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+
+  }
+}
+
 
 .HIKKA-SEC-4-1 img{
     border-radius: 3px;
@@ -153,6 +170,12 @@ padding: 20px 80px 20px 80px;
   column-gap: 50px;
   padding: 20px 80px 50px 80px;
   }
+  @media only screen and (max-width:686px) {
+    .HIKKA-SEC-5-1{
+      grid-template-columns: 1fr;
+    }
+  }
+
   
   .hikka-other iframe {
 
