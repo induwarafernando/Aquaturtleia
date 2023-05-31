@@ -185,8 +185,9 @@
 font-size: 35px;
 background: linear-gradient(45deg, #333, #4196f7);
 color: azure;
-
 }
+
+
 table {
   font-family: Arial, sans-serif;
   border-collapse: collapse;
@@ -194,7 +195,7 @@ table {
 }
 
 table td, table th {
-  border: 1px solid #d3f0fc;
+  border: 1px solid #000641;
   padding: 8px;
 }
 
@@ -211,5 +212,32 @@ table tr:hover {
   background-color: #c5d3ff;
 }
 
+@media (max-width: 740px) {
+  table {
+      width: 90%;
+      margin: 5% 5%;
+  }
+  th {
+      display: none;
+
+  }
+
+  td, td::before {
+      font-size: 0.8rem;
+  }
+
+  td {
+      display: grid;
+      grid-template-columns: 15ch auto;
+      padding: 0.5rem 1rem;
+  }
+
+  td::before {
+      content: attr(data-cell);
+      font-weight: 700;
+      text-transform: capitalize;
+  }
+
+}
 
 
