@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #f5f3f3;
+    background-image: linear-gradient(rgb(0, 95, 136),rgb(2, 2, 46));
+    background-position: 2% 30%;
+    background-attachment: fixed;
+}
+* {
+    margin: 10;
+    padding: 10;
+}
+
+h2{
+  text-align: center;
+  background-image: url(DreamShaper_v7_beach_night_view_dark_blue_0.jpg);
+  font-size: 40px;
+  margin: 20px 18px 10px 18px;
+  border-radius: 5px;
+}
+
+i {
+    margin: right 10px;
+}
+
+.container {
+  display: flex;
+  margin: 0px;
+  padding:0px;
+  justify-content: center;
+}
+
+
+input:focus,
+button:focus,
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+.form-control:disabled,
+.form-control[readonly] {
+    background-color: #ffffff;
+}
+.table tr,
+.table tr td {
+    vertical-align: middle;
+}
+.button-container {
+    display: flex;
+    align-items: center;
+}
+.button-container .form-control {
+    max-width: 80px;
+    text-align: center;
+    margin: 0px 5px;
+}
+
+#myTable .form-control {
+    width: auto;
+    display: inline-block;
+}
+.qty-plus,
+.qty-minus {
+    width: 25px;
+    height: 25px;
+    background-color: #95c7da;
+    border-radius: 0rem; 
+}
+.qty-plus:hover{
+    background-color: #0fc009;
+    color: #fff;
+}
+.qty-minus:hover {
+    background-color: #fd0e0e;
+    color: #fff;
+}
+
+
+
+
+/* Form css */
+.form {
+    display: flex;
+    flex-direction: column;
+    -ms-flex-align: right;
+    gap: 10px;
+    width: 870px;
+    background-color: #ffffff9b;
+    padding: 0px 50px 20px 30px;
+    margin: 20px;
+    border-radius: 9px;
+    position: relative;
+  }
+  
+  .title {
+    font-size: 28px;
+    color: rgb(0, 16, 66);
+    font-weight: 600;
+    letter-spacing: -1px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    margin-bottom: 0px;
+  }
+  
+  .title::before,.title::after {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    left: 0px;
+    background-color: royalblue;
+  }
+  
+  .title::before {
+    width: 18px;
+    height: 18px;
+    background-color: rgb(249, 3, 73);
+  }
+  
+  .title::after {
+    width: 18px;
+    height: 18px;
+    animation: pulse 1s linear infinite;
+  }
+  
+  .message, .signin {
+    color: rgba(1, 7, 50, 0.822);
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    
+  }
+  
+  .signin {
+    text-align: center;
+  }
+  
+  .signin a {
+    color: royalblue;
+  }
+  
+  .signin a:hover {
+    text-decoration: underline royalblue;
+  }
+  
+  .flex {
+    display: flex;
+    width: 100%;
+    gap: 100px;
+
+  }
+  
+  .form label {
+    color: #000000;
+    position: relative;
+    width: 100%;
+    font-size: 14px;
+  }
+  
+  .form label .input {
+    width: 100%;
+    padding: 10px 10px 20px 10px;
+    outline: 0;
+    border: 1px solid rgba(0, 0, 0, 0.397);
+    border-radius: 10px;
+  }
+  
+  .form label .input + span {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    color: rgb(0, 0, 0);
+    font-size: 0.99em;
+    cursor: text;
+    transition: 0.3s ease;
+  }
+  
+  .form label .input:placeholder-shown + span {
+    top: 15px;
+    font-size: 0.9em;
+  }
+  
+  .form label .input:focus + span,.form label .input:valid + span {
+    top: 30px;
+    font-size: 0.7em;
+    font-weight: 600;
+  }
+  
+  .form label .input:valid + span {
+    color: green;
+  }
+  
+  .submit {
+    border: none;
+    outline: none;
+    background-image: linear-gradient(to right, rgb(6, 2, 77), rgb(5, 99, 240));
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    transform: .3s ease;
+    width: 101.85%;
+  }
+  
+  .submit:hover {
+    background-color: rgb(56, 90, 194);
+    cursor: pointer;
+  }
+  
+  @keyframes pulse {
+    from {
+      transform: scale(0.9);
+      opacity: 1;
+    }
+  
+    to {
+      transform: scale(1.8);
+      opacity: 0;
+    }
+  }
+  
+
+  
+.time-slots {
+  margin-bottom: 20px;
+}
+
+h1 {
+  text-align: left;
+  color: #044c02;
+}
+
+
+/* Add styling for the Gender dropdown */
+.form select.input {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form select.input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+
+/* Add styling for the Continue with purchase button */
+.continue-button {
+  display: block;
+  margin: 0px auto;
+  padding: 10px 20px;
+  background-image: linear-gradient(to right, rgb(2, 180, 5), rgb(8, 235, 35), rgb(115, 239, 117));
+  border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  opacity: 0.8;
+  font-size: 16px;
+  font-weight: 700;
+ 
+}
+.continue-button:active,
+.continue-button:hover {
+  opacity: 1.2; /* Button becomes active on hover and click */
+}
+
+a {
+  text-decoration: none;
+  color: #f9f9f9;
+}
+
+.summary-table {
+  float: right;
+  margin: 0px 15px 0px 0px;
+  border-collapse: collapse;
+  }
+
+.summary-table th,
+.summary-table td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+
+    .summary-table th {
+      background-color: #001b40a4;
+    }
+
+    .summary-table caption {
+      caption-side: top;
+      font-weight: bold;
+      font-size: 25px;
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
+
+
+
+
+    

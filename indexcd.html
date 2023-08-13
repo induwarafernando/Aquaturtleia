@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card-Payment-Details</title>
+    <link rel="stylesheet" href="stylescd.css">
+    <link rel="stylesheet" href="booking.css">
+</head>
+<body>
+    <h2 class="heading">Book Now</h2>
+    <main class="container">
+        <section class="ui">
+            <div class="container-left">
+                <form id="credit-card">
+                    <div class="number-container">
+                        <label>Card Number</label>
+                        <input type="text" name="card-number" id="card-number" maxlength="19" placeholder="1234 5678 9101 1121"
+                        required
+                        onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+                    </div>
+                    <div class="name-container">
+                        <label>Holder</label>
+                        <input type="text" name="name-text" id="name-text" maxlength="30" placeholder=" INDUWARA FERNANDO"
+                        required
+                        onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || event.key == ' '">
+                    </div>
+                    <div class="infos-container">
+                        <div class="expiration-container">
+                            <label>Valid-thru</label>
+                            <input type="text" name="valid-thru-text" id="valid-thru-text" maxlength="5" placeholder="02/40"
+                            required
+                            
+                            onkeypress="return event.charCode >=48 && event.charCode <= 57">
+                        </div>
+                        <div class="cvv-container">
+                            <label>CVV</label>
+                            <input type="text" name="cvv-text" id="cvv-text" maxlength="4" placeholder="123"
+                            required
+                            onkeypress="return event.charCode >=48 && event.charCode <= 57">
+                        </div>
+                    </div>
+                    <div>
+                      <button id="submitBtn" class="submit">Save</button>
+                    </div>
+                    <div>
+                       <a href="thankyou.html">
+                        <input type="submit" value="$55" id="add">
+                       </a>
+                    </div>
+
+                                      </form>
+            </div>
+            <div class="container-right">
+                <div class="card">
+                    <div class="intern">
+                        <img class="approximation" src="aprox.png" alt="aproximation">
+                        <div class="card-number">
+                            <div class="number-vl">1234 5678 9101 1121</div>
+                        </div>
+                        <div class="card-holder">
+                            <label>Holder</label>
+                            <div class="name-vl">INDUWARA FERNANDO</div>
+                        </div>
+                        <div class="card-infos">
+                            <div class="exp">
+                                <label>valid-thru</label>
+                                <div class="expiration-vl">02/40</div>
+                            </div>
+                            <div class="cvv">
+                                <label>CVV</label>
+                                <div class="cvv-vl">123</div>
+                            </div>
+                        </div>
+                        <img class="chip" src="chip.png" alt="chip">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <table class="summary-table">
+            <div class="c1">
+              <caption>Summary</caption>
+              <tbody>
+                <tr>
+                  <th>Full Name</th>
+                  <td id="summaryFullName">-</td>
+                </tr>
+                <tr>
+                  <th>Mobile Number</th>
+                  <td id="summaryMobileNumber">-</td>
+                </tr>
+                <tr>
+                  <th>Email</th>
+                  <td id="summaryEmail">-</td>
+                </tr>
+                <tr>
+                  <th>Gender</th>
+                  <td id="summaryGender">-</td>
+                </tr>
+                <tr>
+                  <th>Date</th>
+                  <td id="summaryDate">-</td>
+                </tr>
+                <tr>
+                  <th>Time</th>
+                  <td id="summaryTime">-</td>
+                </tr>
+                <tr>
+                  <th>Duration</th>
+                  <td id="summaryDuration">-</td>
+                </tr>
+                <tr>
+                  <th>Tickets</th>
+                  <td bgcolor="#001b40">Charges</td>
+                </tr>
+                <tr id="summaryLocalAdultRow">
+                  <th>Local Adult</th>
+                  <td id="summaryLocalAdultAmount">$0</td>
+                </tr>
+                <tr id="summaryLocalChildRow">
+                  <th>Local Child</th>
+                  <td id="summaryLocalChildAmount">$0</td>
+                </tr>
+                <tr id="summaryForeignAdultRow">
+                  <th>Foreign Adult</th>
+                  <td id="summaryForeignAdultAmount">$0</td>
+                </tr>
+                <tr id="summaryForeignChildRow">
+                  <th>Foreign Child</th>
+                  <td id="summaryForeignChildAmount">$0</td>
+                </tr>
+                <tr id="summaryInfantRow">
+                  <th>Infant</th>
+                  <td id="summaryInfantAmount">Free</td>
+                </tr>
+                <tr>
+                  <th>Total Payable</th>
+                  <td id="summaryTotal">$0</td>
+                </tr>
+              </tbody>
+            </div>
+          </table>
+    </main>
+    <script src="indexcd.js"></script>
+
+</body>
+</html>
