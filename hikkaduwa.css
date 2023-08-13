@@ -17,13 +17,19 @@
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #007bff;
+  background: linear-gradient(45deg, rgb(3, 129, 168) 0%, rgb(51, 47, 186) 35%,rgb(6, 6, 117) 65%,rgb(1, 31, 112) 100%);  
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   z-index: 1000;
 }
+
+.floating-button:hover {
+scale: 1.061;
+background:linear-gradient(45deg, rgb(15, 1, 68) 0%, rgb(23, 99, 250) 65%,rgb(9, 166, 209) 85%,rgb(86, 188, 236) 100%);
+}
+
 
 .floating-button a {
   text-decoration: none;

@@ -5,7 +5,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: #000000;
-    background-image: linear-gradient(rgb(0, 95, 136),rgb(2, 2, 46));
+    background: linear-gradient(45deg, rgb(3, 129, 168) 30%, rgb(51, 47, 186) 75%,rgb(6, 6, 117) 97%,rgb(1, 31, 112) 100%);  
     background-attachment: fixed;
 }
 * {
@@ -22,6 +22,7 @@ body {
 }
 
 h2{
+  font-family: 'poppins', sans-serif;
   text-align: center;
   background-image: url(Absolute_Reality_v16_night_space_with_stars_dark_blue_dark_blu_0.jpg);
   font-size: 40px;
@@ -72,6 +73,7 @@ button:focus,
     width: auto;
     display: inline-block;
 }
+
 .qty-plus,
 .qty-minus {
     width: 25px;
@@ -100,7 +102,7 @@ button:focus,
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin: 30px;
+    margin:  30px;
     background-color: #fffdfd84;
     width: 782px;
     max-width: 1500px;
@@ -212,7 +214,7 @@ button:focus,
   .submit {
     border: none;
     outline: none;
-    background-color: rgb(17, 75, 212);
+    background: linear-gradient(45deg, rgb(3, 129, 168) 0%, rgb(51, 47, 186) 35%,rgb(6, 6, 117) 65%,rgb(1, 31, 112) 100%);
     padding: 10px;
     border-radius: 5px;
     color: #fff;
@@ -223,7 +225,7 @@ button:focus,
   }
   
   .submit:hover {
-    background-color: rgb(4, 32, 119);
+    background: linear-gradient(45deg, rgb(1, 0, 68) 0%, rgb(4, 47, 188) 35%,rgb(61, 61, 219) 65%,rgb(54, 191, 245) 100%);
     cursor: pointer;
     scale: 0.98;
     transition: 0.59s;
@@ -281,7 +283,11 @@ h2{
 }
 
 .summary-table th {
-  background-color: #001b40;
+  background: linear-gradient(45deg, rgb(6, 0, 57) 0%, rgb(12, 7, 155) 35%,rgb(14, 81, 181) 65%,rgb(88, 183, 246) 100%);
+}
+
+.charges{
+background: linear-gradient(45deg, rgb(6, 0, 57) 0%, rgb(12, 7, 155) 35%,rgb(14, 81, 181) 65%,rgb(88, 183, 246) 100%);
 }
 
 .summary-table caption {
@@ -312,7 +318,7 @@ h2{
 .next-page-button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #0ba710;
+  background: linear-gradient(42deg, rgb(5, 222, 88) 10%, rgb(42, 229, 28) 25%,rgb(27, 180, 25) 35%,rgb(27, 97, 2) 100%);
   color: white;
   border: none;
   border-radius: 5px;

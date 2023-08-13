@@ -5,7 +5,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: #f5f3f3;
-    background-image: linear-gradient(rgb(0, 95, 136),rgb(2, 2, 46));
+    background-image: linear-gradient(rgb(170, 228, 209),#012178);
     background-position: 2% 30%;
     background-attachment: fixed;
 }
@@ -287,14 +287,18 @@ a {
 
 .summary-table th,
 .summary-table td {
-      border: 1px solid #ddd;
-      padding: 8px;
-      text-align: left;
-    }
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  }
 
-    .summary-table th {
-      background-color: #001b40a4;
-    }
+.summary-table th {
+  background: linear-gradient(45deg, rgb(6, 0, 57) 0%, rgb(12, 7, 155) 35%,rgb(14, 81, 181) 65%,rgb(88, 183, 246) 100%);
+  }
+    
+.charges{
+  background: linear-gradient(45deg, rgb(6, 0, 57) 0%, rgb(12, 7, 155) 35%,rgb(14, 81, 181) 65%,rgb(88, 183, 246) 100%);
+  }
 
     .summary-table caption {
       caption-side: top;

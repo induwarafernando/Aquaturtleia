@@ -93,7 +93,7 @@ h3{
 .notifications-container {
     position: center;
     width: 1220px;
-    height: auto;
+    height: 100vh;
     font-size: 0.875rem;
     line-height: 1.25rem;
     display: flex;
@@ -112,7 +112,7 @@ h3{
   .success {
     padding: 1rem;
     border-radius: 0.375rem;
-    background-color: rgba(156, 156, 156, 0.756);
+    background-color: rgba(191, 210, 226, 0.529);
   }
   
   .succes-svg {
@@ -133,6 +133,7 @@ h3{
   
   .success-prompt-prompt {
     margin-top: 0.5rem;
+    font-size: 15px;
     color: rgb(21, 32, 128);
   }
   
@@ -186,8 +187,22 @@ h3{
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     margin-left: 0.75rem;
-    background-color: #ECFDF5;
-    color: #065F46;
+    background: linear-gradient(42deg, rgb(5, 222, 88) 20%, rgb(42, 229, 28) 45%,rgb(27, 180, 25) 65%,rgb(27, 97, 2) 100%);
+    color: #ffffff;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    border-radius: 0.375rem;
+    border: none;
+  }
+  
+  .success-button-secondary:hover {
+    padding-top: 0.375rem;
+    padding-bottom: 0.375rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-left: 0.75rem;
+    background: linear-gradient(42deg, rgb(14, 96, 0) 10%, rgb(16, 156, 6) 45%,rgb(27, 180, 25) 65%,rgb(129, 239, 89) 100%);
+    color: #ffffff;
     font-size: 0.875rem;
     line-height: 1.25rem;
     border-radius: 0.375rem;

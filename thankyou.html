@@ -59,7 +59,7 @@
                                 </tr>
                                 <tr>
                                   <th>Tickets</th>
-                                  <td bgcolor="#001b40">Charges</td>
+                                  <td class="charges">Charges</td>
                                 </tr>
                                 <tr id="summaryLocalAdultRow">
                                   <th>Local Adult</th>
@@ -88,20 +88,19 @@
                               </tbody>
                             </div>
                           </table>
+                          <button type="button" class="success-button-main" onclick="openPopup()">Done</button>
+                          <a href="hikkaduwa.html"><button type="button" class="success-button-secondary">Back to Hikkaduwa</button></a>
                         </div>
                     </div>
-                  <button type="button" class="success-button-main" onclick="openPopup()">Done</button>
-                  <button type="button" class="success-button-secondary">Back to Hikkaduwa</button>
           </div>
         </div>
       </div>
     </div>
-
         <div class="popup" id="Popupm">
             <img src="404-tick.png" alt="">
             <h3>Thank You!</h3>
             <p>Your details have been successfully submitted. Thanks!</p>
-            <button type="button" onclick="closePopup()">OK</button>
+            <a href="hikkaduwa.html"><button type="button" onclick="closePopup()">OK</button></a>
         </div>
     </div>
     <script src="script.js"></script>

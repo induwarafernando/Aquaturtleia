@@ -1,5 +1,4 @@
 const form = document.querySelector("#credit-card");
-
 const cardNumber = document.querySelector("#card-number");
 const cardHolder = document.querySelector("#name-text");
 const cardExpiration = document.querySelector("#valid-thru-text");
@@ -85,10 +84,9 @@ document.addEventListener('DOMContentLoaded', function () {
         document.getElementById('summaryMobileNumber').innerText = userData.mobileNumber;
         document.getElementById('summaryEmail').innerText = userData.email; 
         document.getElementById('summaryGender').innerText = userData.selectedGender;
-
-
+        
         let totalAmount = 0;
-
+        
         dataObject.customerTypes.forEach((customerType, index) => {
             const rowId = `summary${customerType.replace(/\s+/g, '')}Row`;
             const amountId = `summary${customerType.replace(/\s+/g, '')}Amount`;
@@ -113,7 +111,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         if (infantQty !== null) {
             const infantQtyValue = parseInt(infantQty.value);
-
+            
             if (infantQtyValue > 0) {
                 infantRow.style.display = 'table-row';
                 infantAmount.innerText = '$0';
@@ -121,10 +119,12 @@ document.addEventListener('DOMContentLoaded', function () {
                 infantRow.style.display = 'none';
             }
         }
-
+        
         // Update Final Total
         document.getElementById('summaryTotal').innerText = `$${totalAmount}`;
+        document.getElementById('add').innerText =`$${totalAmount}`;
 
        
     });
 });
+
