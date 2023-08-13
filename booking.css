@@ -13,6 +13,14 @@ body {
     padding: 10;
 }
 
+.amount,.total{
+  color: #ffffff00;
+  float: right;
+  margin: 0px 30px 0px 0px;
+  width: 30%;
+  border-collapse: collapse;
+}
+
 h2{
   text-align: center;
   background-image: url(Absolute_Reality_v16_night_space_with_stars_dark_blue_dark_blu_0.jpg);
@@ -46,7 +54,10 @@ button:focus,
 .table tr,
 .table tr td {
     vertical-align: middle;
-}
+    color: #020134;
+    word-spacing: 4px;
+    padding: 3px;
+  }
 .button-container {
     display: flex;
     align-items: center;
@@ -405,14 +416,18 @@ h2{
 .dropdown-button {
   cursor: pointer;
   padding: 10px;
-  border: 1px solid #ccc;
-  background-color: #fff;
+  border-radius: 4px;
+  color: #000;
+  font-weight: 700;
+  border: 1px solid #64f3f0;
+  background-image: linear-gradient(rgb(158, 247, 244),#a8b8e6,rgb(183, 169, 224));
 }
 
 .checkbox-list {
   display: none;
   position: absolute;
-  border: 1px solid #ccc;
+  border: 1px solid #000154;
+  border-radius: 6px;
   background-color: #fff;
   width: 200px;
   max-height: 150px;
