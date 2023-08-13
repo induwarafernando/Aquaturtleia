@@ -50,8 +50,8 @@ h2{
     width: 360px;
     height: 230px;
     margin: 0 auto;
-    background: linear-gradient(45deg, rgb(3, 129, 168) 0%, rgb(51, 47, 186) 35%,rgb(6, 6, 117) 65%,rgb(1, 31, 112) 100%);
-    border: 2px solid rgba(0,0,0,.3);
+    background: linear-gradient(45deg, rgb(0, 0, 0) 16%, rgb(77, 77, 77) 45%,rgb(163, 163, 164) 75%,rgb(244, 244, 244) 100%);
+    border: 1.1px solid rgba(0,0,0,.3);
     border-color: antiquewhite;
     border-radius: 15px;
 }

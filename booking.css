@@ -283,18 +283,20 @@ h2{
 }
 
 .summary-table th {
-  background: linear-gradient(45deg, rgb(6, 0, 57) 0%, rgb(12, 7, 155) 35%,rgb(14, 81, 181) 65%,rgb(88, 183, 246) 100%);
+  background: linear-gradient(45deg, rgb(7, 2, 37) 26%, rgb(18, 20, 84) 55%,rgb(5, 11, 104) 75%,rgb(98, 168, 249) 100%);
 }
 
 .charges{
-background: linear-gradient(45deg, rgb(6, 0, 57) 0%, rgb(12, 7, 155) 35%,rgb(14, 81, 181) 65%,rgb(88, 183, 246) 100%);
+  background: linear-gradient(45deg, rgb(0, 0, 0) 16%, rgb(77, 77, 77) 45%,rgb(163, 163, 164) 75%,rgb(244, 244, 244) 100%);
 }
 
 .summary-table caption {
+  border-radius: 3px;
+  background: linear-gradient(45deg, rgb(0, 0, 0) 16%, rgb(77, 77, 77) 45%,rgb(163, 163, 164) 75%,rgb(244, 244, 244) 100%);
   caption-side: top;
   font-weight: bold;
   margin-bottom: 1px;
-  padding: 0px 0px 8px 0px;
+  padding: 10px 0px 10px 0px;
   font-size: 25px;
 }
 

@@ -9,7 +9,7 @@ const cardHolderText = document.querySelector(".name-vl");
 const cardExpirationText = document.querySelector(".expiration-vl");
 const cardCVVText = document.querySelector(".cvv-vl");
 
-cardNumber.addEventListener("keyup", (e) => {
+cardNumber.addEventListener("input", (e) => {
     if (!e.target.value) {
         cardNumberText.innerText = "1234 5678 9101 1121";
     } else {
