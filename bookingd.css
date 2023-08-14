@@ -5,7 +5,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: #f5f3f3;
-    background-image: linear-gradient(rgb(170, 228, 209),#012178);
+    background: linear-gradient(45deg, rgb(3, 129, 168) 30%, rgb(51, 47, 186) 75%,rgb(6, 6, 117) 97%,rgb(1, 31, 112) 100%);  
     background-position: 2% 30%;
     background-attachment: fixed;
 }
@@ -300,15 +300,15 @@ a {
   background: linear-gradient(45deg, rgb(6, 0, 57) 0%, rgb(12, 7, 155) 35%,rgb(14, 81, 181) 65%,rgb(88, 183, 246) 100%);
   }
 
-    .summary-table caption {
-      caption-side: top;
-      font-weight: bold;
-      font-size: 25px;
-      margin-bottom: 10px;
-      margin-top: 10px;
-    }
-
-
+.summary-table caption {
+  border-radius: 3px;
+  background: linear-gradient(45deg, rgb(6, 1, 54) 16%, rgb(0, 14, 136) 45%,rgb(121, 121, 207) 75%,rgb(244, 244, 244) 100%);
+  caption-side: top;
+  font-weight: bold;
+  margin-bottom: 1px;
+  padding: 10px 0px 10px 0px;
+  font-size: 25px;
+  }
 
 
     

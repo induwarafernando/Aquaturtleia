@@ -283,16 +283,16 @@ h2{
 }
 
 .summary-table th {
-  background: linear-gradient(45deg, rgb(7, 2, 37) 26%, rgb(18, 20, 84) 55%,rgb(5, 11, 104) 75%,rgb(98, 168, 249) 100%);
+  background: linear-gradient(25deg, rgb(14, 2, 84) 26%, rgb(0, 4, 114) 55%,rgb(34, 48, 247) 75%,rgb(6, 193, 249) 100%);
 }
 
 .charges{
-  background: linear-gradient(45deg, rgb(0, 0, 0) 16%, rgb(77, 77, 77) 45%,rgb(163, 163, 164) 75%,rgb(244, 244, 244) 100%);
+  background: linear-gradient(25deg, rgb(14, 2, 84) 26%, rgb(0, 4, 114) 55%,rgb(34, 48, 247) 75%,rgb(6, 193, 249) 100%);
 }
 
 .summary-table caption {
   border-radius: 3px;
-  background: linear-gradient(45deg, rgb(0, 0, 0) 16%, rgb(77, 77, 77) 45%,rgb(163, 163, 164) 75%,rgb(244, 244, 244) 100%);
+  background: linear-gradient(45deg, rgb(6, 1, 54) 16%, rgb(0, 14, 136) 45%,rgb(121, 121, 207) 75%,rgb(244, 244, 244) 100%);
   caption-side: top;
   font-weight: bold;
   margin-bottom: 1px;
