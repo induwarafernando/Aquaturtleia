@@ -305,7 +305,8 @@ a {
   background: linear-gradient(45deg, rgb(6, 1, 54) 16%, rgb(0, 14, 136) 45%,rgb(121, 121, 207) 75%,rgb(244, 244, 244) 100%);
   caption-side: top;
   font-weight: bold;
-  margin-bottom: 1px;
+  margin-bottom: 20px;
+  margin-top: 25px;
   padding: 10px 0px 10px 0px;
   font-size: 25px;
   }

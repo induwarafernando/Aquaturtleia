@@ -112,7 +112,7 @@ h3{
   .success {
     padding: 1rem;
     border-radius: 0.375rem;
-    background-color: rgba(191, 210, 226, 0.529);
+    background-color: rgba(158, 148, 148, 0.583);
   }
   
   .succes-svg {
@@ -127,14 +127,15 @@ h3{
   
   .success-prompt-heading {
     font-weight: bold;
+    margin-top: 8px;
     color: rgb(3, 13, 67);
-    font-size: 20px;
+    font-size: 26px;
   }
   
   .success-prompt-prompt {
-    margin-top: 0.5rem;
-    font-size: 15px;
-    color: rgb(21, 32, 128);
+    margin-top: 1.5rem;
+    font-size: 15.8px;
+    color: rgb(252, 253, 255);
   }
   
   .success-button-container {
