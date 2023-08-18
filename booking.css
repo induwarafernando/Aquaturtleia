@@ -5,7 +5,8 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: #000000;
-    background: linear-gradient(10deg, rgb(3, 129, 168) 30%, rgb(51, 47, 186) 75%,rgb(6, 6, 117) 97%,rgb(1, 31, 112) 100%);  
+    background-image: url('images/hikkaduwa/check.png');
+    /* background: linear-gradient(10deg, rgb(3, 129, 168) 30%, rgb(51, 47, 186) 75%,rgb(6, 6, 117) 97%,rgb(1, 31, 112) 100%);   */
     background-attachment: fixed;
 }
 * {
@@ -103,7 +104,7 @@ button:focus,
     flex-direction: column;
     gap: 10px;
     margin:  0px  30px 0px  30px;
-    background-color: #fffdfd84;
+    background-color: #00affa59;
     width: 782px;
     max-width: 1500px;
     padding: 5px 40px 20px 40px;
