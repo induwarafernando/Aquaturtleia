@@ -74,7 +74,7 @@ p{
  
 }
 
-
+/* 
 .navbar{
     width: 100vw;
     padding: 30px;
@@ -108,7 +108,7 @@ li a:hover{
 }
 .navbar a:hover{
     color: black;
-}
+} */
 .content{
     width: 100%;
     position: absolute;
@@ -135,152 +135,214 @@ li a:hover{
         width: 100%;
         height: auto;
     }
-}
-nav {
-  /* box-shadow:0px 5px 10px #000000e7; */
-    margin: 0px 0px 20px 0px; 
-    position: fixed;
-    width: 100%;
-    height: 48px;
-    background-color: #707070;
-    z-index: 200;
-  }
-  
-  nav a {
-    line-height: 45px;
-    height: 100%;
-    font-size: 15px;
-    display: inline-block;
-    position: relative;
-    z-index: 1;
-    text-decoration: none;
-    text-transform: uppercase;
-    text-align: center;
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-  
-  }
-  
-  nav .animation {
-    position: absolute;
-    height: 100%;
-    top: 0;
-    z-index: 0;
-    transition: all 0.5s ease 0s;
-  
-  }
-  
-  a:nth-child(1) {
-    width: 100px;
-  }
-  
-  a:nth-child(2) {
-    width: 110px;
-  }
-  
-  a:nth-child(3) {
-    width: 100px;
-  }
-  
-  a:nth-child(4) {
-    width: 160px;
-  }
-  
-  a:nth-child(5) {
-    width: 120px;
-  }
-  
-  nav .start-home, a:nth-child(1):hover~.animation {
-    width: 100px;
-    left: 0;
-    background-color: #ecebf1e7;
-  }
-  
-  nav .start-about, a:nth-child(2):hover~.animation {
-    width: 110px;
-    left: 100px;
-    background-color: #f4f5ffc5;
-  }
-  
-  nav .start-blog, a:nth-child(3):hover~.animation {
-    width: 100px;
-    left: 210px;
-    background-color: #f4f5fdd8;
-  }
-  
-  nav .start-portefolio, a:nth-child(4):hover~.animation {
-    width: 160px;
-    left: 310px;
-    background-color: #f8f9fde0;
-  }
-  
-  nav .start-contact, a:nth-child(5):hover~.animation {
-    width: 120px;
-    left: 470px;
-    background-color: #eeeff5ee;
-  }
-  
-  .dropdown {
-    position: relative;
-    display: inline-block;
-    
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    z-index: 1;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  
-  .dropdown-content a {
-    color: rgb(68, 143, 255);
-    padding: 0px 0px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown-content a:hover {
-    background-color: #000000b2;
-  }
-  
-    
-  
-   
-.logo-container img{
+ }
+
+
+
+ @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Poppins", sans-serif;
+ }
  
-  position: fixed;
-  margin: -42px 100px 100px 1260px;
-  z-index: 50;
-  
-
-}
-
-    nav a button{
-    z-index: 1000;
-    background-color: #04668d;
-    width: 120px;
-    padding: 3px 3px 3px 3px;
-    margin: 9px 9px 9px 9px;
-    text-align: center;
-    border-radius: 5px;
-    color: rgb(252, 251, 255);
-    border: 2px;
-    font-size: 15px;
-    cursor: pointer;
-    font-weight: 400;
+ 
+ .header{
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     padding: 1.3rem 10%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     z-index: 1000;
+ }
+ .header::before{
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: rgba(6, 140, 236, 0.839);
+   backdrop-filter: blur(50px);
+   z-index: -1;
+ }
+ 
+ .header::after{
+   content: '';
+   position: absolute;
+   top: 0;
+   left:-100%;
+   width: 100%;
+   height: 100%;
+   background: linear-gradient(90deg,transparent,rgba(241, 230, 230, 0.598),transparent);
+   transition: 0.8s;
+   z-index: -1;
+ }
+ .header:hover::after{
+   left: 100%;
+ }
+ 
+ 
+ /* test */
+ nav a button {
+   background-color: rgb(0, 169, 241);
+   --color: #ffffff;
+   font-family: inherit;
+   display: inline-block;
+   width: 8em;
+   height: 1.75em;
+   line-height: 1em;
+   position: relative;
+   overflow: hidden;
+   border: 2px solid var(--color);
+   transition: color .5s;
+   z-index: 1;
+   font-size: 17px;
+   border-radius: 5px;
+   font-weight: 500;
+   color: var(--color);
   }
-    nav a button:hover{
-        background: rgba(36, 40, 248, 0.801);
-        transition: 0.8s;
-        letter-spacing: 3px;
-        color: rgb(207, 243, 0);
-    }
-    
-    
+  
+  nav a button:before {
+   content: "";
+   position: absolute;
+   z-index: -1;
+   background: var(--color);
+   height: 150px;
+   width: 200px;
+   border-radius: 50%;
+  }
+  
+  nav a button:hover {
+   color: #020739;
+  }
+  
+  nav a button:before {
+   top: 100%;
+   left: 100%;
+   transition: all .7s;
+  }
+  
+  nav a button:hover:before {
+   top: -30px;
+   left: -30px;
+  }
+  
+  nav a button:active:before {
+   background: #0c67a3;
+   transition: background 0s;
+  }
+ /* test */
+ 
+ 
+ 
+ .logo{
+     cursor: pointer;
+     color: aliceblue;
+     text-decoration: none;
+     font-weight: 700;
+ }
+ 
+ .navbar{
+     display: flex;
+     justify-content: center;
+     gap: 2rem;
+     margin-left:40px;
+     align-items: center;
+ }
+ 
+ .navbar a {
+     font-size: 1.15e;
+     color: rgb(255, 255, 255);
+     text-decoration: none;
+     font-weight: 500;
+ 
+ }
+ 
+ #check{
+   display: none;
+ }
+ 
+ .icons{
+   position: absolute;
+   right: 5%;
+   font-style: 2.8rem;
+   color: antiquewhite;
+   cursor: pointer;
+   display: none;  
+ }
+ 
+ /* breakpoint */
+ @media (max-width:992px){
+   .header{
+     padding: 1.3rem 5%;
+   }
+ }
+ @media (max-width: 768px) {
+   .icons {
+     display: inline-flex;
+   }
+   
+   .icons #close-icon{
+     display: none;
+   }
+ 
+ #check:checked~ .icons #menu-icon {
+     display: none; 
+   }
+ 
+   /* .icons #close-icon { */
+     /* display: none;   */
+   /* } */
+ 
+   #check:checked~.icons #close-icon{
+     display: block;
+   }
+   
+   .navbar{
+     display: block;
+     position: absolute;
+     top: 100%;
+     left: 0;
+     margin: 0;
+     width: 100%;
+     height: 100%;
+     background: rgba(0, 0, 0, 0.181);
+     backdrop-filter: blur(50px);
+     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+     transition: 0.3s;
+   }
+ 
+ 
+   #check:checked~.navbar {
+     height: 25rem;
+   }
+ 
+   .navbar a {
+   display: block;
+   font-size: 1.1rem;
+   margin: 1.5rem 0;
+   text-align: center;
+   transform: translateY(-50px);
+   opacity: 0;
+   transform-origin: 0.3s ease;
+ }
+ 
+ #check:checked~.navbar a {
+   transform: translateY(0);
+   opacity: 1;
+   transition-delay: calc(0.1s * var(--i));
+ }
+ 
+ }
+ 
+ 
+
 
 .Intro{
 

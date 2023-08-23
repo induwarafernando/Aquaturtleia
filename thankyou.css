@@ -92,13 +92,14 @@ h3{
 
 .notifications-container {
     position: center;
-    width: 1220px;
+    width: 96vw;
     height: 100vh;
     font-size: 0.875rem;
     line-height: 1.25rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    border-radius: 9px;
   }
   
   .flex1 {
@@ -112,7 +113,7 @@ h3{
   .success {
     padding: 1rem;
     border-radius: 0.375rem;
-    background-color: rgba(158, 148, 148, 0.583);
+    background-color: rgb(167, 205, 246);
   }
   
   .succes-svg {
@@ -135,7 +136,8 @@ h3{
   .success-prompt-prompt {
     margin-top: 1.5rem;
     font-size: 15.8px;
-    color: rgb(252, 253, 255);
+    color: rgb(11, 3, 79);
+    font-weight: 600;
   }
   
   .success-button-container {
