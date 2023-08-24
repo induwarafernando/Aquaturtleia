@@ -490,7 +490,12 @@ h2{
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(33, 30, 202, 0.82);
+  background: 
+   /* #D3FBD8  */
+  /* #C4FCEF */
+  /* #DEEDF6 */
+  #74d0f4 
+  ;
   backdrop-filter: blur(50px);
   z-index: -1;
 }
@@ -581,7 +586,7 @@ nav a button {
 
 .navbar a {
     font-size: 1.15e;
-    color: rgb(255, 255, 255);
+    color: rgb(9, 3, 68);
     text-decoration: none;
     font-weight: 500;
 
