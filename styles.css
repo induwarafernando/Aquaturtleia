@@ -357,7 +357,7 @@ li a:hover{
 }
 .Intro h1{
   
-  text-decoration: underline;
+  /* text-decoration: underline; */
   text-decoration-color: #000000;
   font-size: 35px;
   text-align: left;
@@ -434,7 +434,7 @@ background-attachment: fixed;
 .home-section-3 h1{
   text-align: left;
   font-size: 38px;
-  text-decoration: underline;
+  /* text-decoration: underline; */
   padding-bottom: 20px;
   letter-spacing: 0.8;
 }
